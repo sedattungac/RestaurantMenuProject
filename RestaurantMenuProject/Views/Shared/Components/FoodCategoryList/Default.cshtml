@@ -1,0 +1,48 @@
+﻿@using EntityLayer.Concrete
+@model List<FoodCategory>
+<div class="row">
+    <div class="col-12">
+        <div class="filter-foodmenu-tab">
+            <ul class="nav nav-tabs" role="tablist">
+                @*@foreach (var item in Model)
+                {
+                    <li>
+                        <a data-toggle="tab" href="#foodmenu1" role="tab">
+                            <span class="icon-salad"></span>@item.Title
+                        </a>
+                    </li>
+                }*@
+
+                <li>
+                        <a class="active" data-toggle="tab" href="#foodmenu2" role="tab">
+                            <span class="icon-breakfast2"></span> launch
+                        </a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#foodmenu3" role="tab">
+                            <span class="icon-beef"></span>
+                            Dinner
+                        </a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#foodmenu4" role="tab">
+                            <span class="icon-salad2"></span>
+                            Dessert
+                        </a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#foodmenu5" role="tab">
+                            <span class="icon-soda"></span>
+                            Drinks
+                        </a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#foodmenu6" role="tab">
+                            <span class="icon-french-fries"></span> Sides
+                        </a>
+                    </li>
+            </ul>
+        </div>
+        <!--~./ end filter foodmenu tab ~-->
+    </div><!-- /.col-12 -->
+</div>
